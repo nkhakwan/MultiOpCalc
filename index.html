@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Many Function Calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Calculator</h1>
+    <form id="calculating">
+      <div class="form-group">
+        <label for="add1">First number:</label>
+        <input id="add1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="add2">Second Number</label>
+        <input id="add2" class="form-control" type="text">
+      </div>
+      <select class="form-control" id="calcType">
+        <option value="1">add</option>
+        <option value="2">multiply</option>
+        <option value="3">divide</option>
+        <option value="4">subtract</option>
+      </select>
+      <button type="submit" class="btn">enter</button>
+    </form>
+    <div id="output"></div>
+    </div>
+  </body>
+</html>
+
+
+
